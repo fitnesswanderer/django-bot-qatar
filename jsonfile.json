@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "greetings1",
+      "patterns": [
+        "hi how are you?",
+        "hello",
+        "hi",
+        "hola",
+        "howdy",
+        "greetings",
+        "hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hello :)"
+      ]
+
+    },
+    {
+      "tag":"greetings2",
+      "patterns": [
+        "how are you doing?",
+        "how are you?",
+        "hi how are you?",
+        "hello how are you?"
+      ],
+      "responses": [
+        "I'm fine what about you?",
+        "Thanks for asking! I'm excellent. How about you?",
+        "Fine, thanks. What do you got for me today?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name?",
+        "what should I call you?",
+        "who are you?"
+      ],
+      "responses": [
+        "I'm Aapi and I'm here to help you out ;)"
+      ]
+    },
+    {
+      "tag":"help",
+      "patterns": [
+        "help",
+        "help!"
+      ],
+      "responses":[
+        "Ok, you can ask me about:<br> Business class, First class allowance <br>Economy class Allowance<br>Flying with pets <br> Hand baggage and extra baggage<br> checked baggage"
+      ]
+    },
+    {
+      "tag": "First class allowance",
+      "patterns": [
+        "what is the first class baggage allowance?",
+        "how many kgs I can carry in first class"
+      ],
+      "responses": [
+        "https://www.qatarairways.com/en/baggage/allowance.html"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "how to fly with service dogs?",
+        "I want to take my bird in Qatar Airways",
+        "What abput pet food in Qatar Airways",
+        "How to travel with pets as checked baggage"
+        
+      ],
+      "responses": [
+        "https://www.qatarairways.com/en/baggage/animals.html"
+      ]
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "what is policy flying with pets",
+        "can I fly with cat,dogs,or birds in Qatar Airways"
+      ],
+      "responses": [
+        "https://www.qatarairways.com/en/baggage/animals.html"
+      ]
+    },
+    {
+      "tag": "baggage",
+      "patterns": [
+        "what is the baggage policy?",
+        "how much baggage is allowed in Qatar airways?",
+        "What is maximum kgs of baggage allowed",
+        "luggage policy? "
+      ],
+      "responses": [
+        "https://www.qatarairways.com/en/baggage/allowance.html"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "good Bye ",
+        "see You later",
+        "till next time",
+        "meet you later"
+      ],
+      "responses": [
+        "See you, Have a nice day :)",
+        "Bye,Come back soon! ",
+        "Thanks For Asking! "
+      ]
+    },
+    {
+      "tag": "noans",
+      "patterns": [
+        "why",
+        "how",
+        "when",
+        "I",
+        "you"
+      ],
+      "responses": [
+        "Hey there!, I'm still learning stuff can you please elaborate it?",
+        "Please type help in case of your query is not answered."
+      ]
+    }
+  ]
+}
