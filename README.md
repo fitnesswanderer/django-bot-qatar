@@ -17,14 +17,17 @@ You must have django,nltk,numpy,tensorflow installed
 ### Project Structure
 This project consists of:
 1. When a Django project is created,files are created automatically.
+   
 2.jsonfile.json- This is a json file contaning input which may be given to chatbot by user and the response given by bot. It is a data given to chatbot.We can also use LLMs like openAI to chat with relevant data for the business.
+
 3. templates - This folder contains the HTML template (index.html) to allow user to enter question and displays the response.
-4. static - This folder contains the stylesheets folder with staticStyle.css file which has the styling required for out index.html file.It containes images as well used for UI.
+4. 
+5. static - This folder contains the stylesheets folder with staticStyle.css file which has the styling required for out index.html file.It containes images as well used for UI.
 
 # How to run ChatBot on your computer 🤔
 - Clone the repository:
 ```
-git clone https://github.com/fitnesswanderer/djangobotqatardemo.git
+git clone https://github.com/fitnesswanderer/django-bot-qatar.git
 cd djangobotqatardemo
 ```
 
@@ -38,7 +41,7 @@ pip install -r requirements.txt
 	- Contain a minimum of 5 unique characters
 	- Not be prefixed with "django-insecure-"
 
-- Now open project directory `/djangobotqatardemo/project/` where `settings.py` is located.
+- Now open project directory `/django-bot-qatar/project/` where `settings.py` is located.
 - Create new `.env` file and add the newly generated `secret key`
 - .env file should look like this:
 ```
@@ -49,7 +52,7 @@ SECRET_KEY = "dlm*zt#1-3g!xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 python manage.py migrate
 ```
-- And run the project.
+Run the Django server
 ```
 python manage.py runserver
 ```
