@@ -1,5 +1,5 @@
 # Qatar Baggage Chatbot
-Qatar Baggage Chatbot is a machine learning based intelligent chatbot designed to provide human-like conversation. 
+Qatar Baggage Chatbot is a machine learning based intelligent chatbot designed to provide human-like conversation. When a customer has  a query regarding a baggage, they give query as input and chatbot returns with an answer.
 Chatbot is created with intention to shorten the gap between business and customer and get queries answered regarding baggage.  
 
 # Technologies Used:
@@ -24,7 +24,7 @@ This project consists of:
 4. 
 5. static - This folder contains the stylesheets folder with staticStyle.css file which has the styling required for out index.html file.It containes images as well used for UI.
 
-# How to run ChatBot on your computer 🤔
+# Installation
 - Clone the repository:
 ```
 git clone https://github.com/fitnesswanderer/django-bot-qatar.git
@@ -57,5 +57,12 @@ Run the Django server
 python manage.py runserver
 ```
 
-- A link http://127.0.0.1:8000/ is created and click on it to open the chatbot. 
+- A link http://127.0.0.1:8000/ is created and click on it to open the chatbot.
+
+# Usage
+You'll see the chat interface with the ChatGPT-powered chatbot ready to interact with you!
+
+![qatar bot](https://github.com/fitnesswanderer/django-bot-qatar/assets/12171326/0d517e72-9631-4c5f-8e43-a21a15089c71)
+
+
 
