@@ -18,11 +18,11 @@ You must have django,nltk,numpy,tensorflow installed
 This project consists of:
 1. When a Django project is created,files are created automatically.
    
-2.jsonfile.json- This is a json file contaning input which may be given to chatbot by user and the response given by bot. It is a data given to chatbot.We can also use LLMs like openAI to chat with relevant data for the business.
+2. jsonfile.json- This is a json file contaning input which may be given to chatbot by user and the response given by bot. It is a data given to chatbot.We can also use LLMs like openAI to chat with relevant data for the business.
 
 3. templates - This folder contains the HTML template (index.html) to allow user to enter question and displays the response.
-4. 
-5. static - This folder contains the stylesheets folder with staticStyle.css file which has the styling required for out index.html file.It containes images as well used for UI.
+    
+4. static - This folder contains the stylesheets folder with staticStyle.css file which has the styling required for out index.html file.It containes images used for UI.
 
 # Installation
 - Clone the repository:
